@@ -30,7 +30,7 @@ public class InsertFile {
 			
 			FileReader fr = new FileReader(f);
 			
-			ps.setInt(1,107);
+			ps.setInt(1,109);
 			ps.setCharacterStream(2,fr,(int)f.length());
 			
 			int i = ps.executeUpdate();
